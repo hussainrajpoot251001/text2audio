@@ -1,6 +1,6 @@
 import streamlit as st
 from gtts import gTTS
-import os
+# import os
 
 # Function to convert text to speech
 def save_and_play_audio(text, language='en'):
@@ -49,7 +49,7 @@ def main():
                 )
             
             # delete the audio file
-            os.remove("audio.mp3")
+            # os.remove("audio.mp3")
 
 # Run the app
 if __name__ == "__main__":
